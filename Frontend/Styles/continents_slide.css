@@ -1,0 +1,243 @@
+section {
+    overflow: hidden;
+  }
+  
+  .destination {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    height: 24rem;
+    transition: all 0.2s;
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    text-decoration: none;
+  }
+  
+  .destination::before {
+    display: block;
+    content: '';
+    transition: all 0.3s;
+    /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 40%, rgb(255, 254, 254, 0.99)); */
+    background: linear-gradient(to bottom, rgb(0, 0, 0, .02) 40%, rgb(208, 242, 255, 0.77));
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .destination:hover {
+    text-decoration: none;
+  }
+  
+  .destination:hover .destination-inner {
+    -webkit-transform: none;
+    transform: none;
+  }
+  
+  .destination-inner {
+    transition: all 0.3s;
+    -webkit-transform: translateY(3.2rem);
+    transform: translateY(3.2rem);
+  }
+  
+  @media (max-width: 991.98px) {
+    .destination-inner {
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
+  
+  .center .destination {
+    -webkit-transform: scaleY(1.1);
+    transform: scaleY(1.1);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .center .destination-inner {
+    -webkit-transform: none;
+    transform: none;
+  }
+  
+  .center .destination h2, .center .destination p {
+    -webkit-transform: scaleY(0.9);
+    transform: scaleY(0.9);
+  }
+  
+  .text-uppercase {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    letter-spacing: .1em;
+  }
+  
+  .bg-cover {
+    background-size: cover !important;
+    background-position: center center !important;
+  }
+  
+  .bg-center {
+    background-position: 50% 50% !important;
+  }
+  
+  .index-forward {
+    position: relative;
+    z-index: 99;
+  }
+  
+  .owl-padding .owl-stage-outer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  .owl-prev, .owl-next {
+    background: none !important;
+    color: #000 !important;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    transition: all 0.3s;
+  }
+  .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    background: 0 0;
+    color: inherit;
+    border: none;
+    padding: 0!important;
+    font: inherit;
+    outline: none;
+  }
+  .owl-prev:hover, .owl-next:hover {
+    color: #0d6efd !important;
+  }
+  
+  .nav-center-custom {
+    text-align: center;
+  }
+  
+  .nav-center-custom .owl-nav {
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    background: #f8f9fa;
+    margin: 0 auto;
+  }
+  
+  .btn {
+    font-weight: 400;
+    border: 1px solid transparent;
+    font-family: "Abril Fatface", serif;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  @media screen and (prefers-reduced-motion: reduce) {
+    .btn-slide {
+      transition: none;
+    }
+  }
+  
+  .btn-slide:focus, .btn-slide.focus {
+    box-shadow: 0 0 0 0.2rem rgba(235, 170, 61, 0.25);
+  }
+  
+  .btn-primary {
+    color: #212529;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+  }
+  
+  .btn-primary:hover {
+    color: #212529;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+  }
+  
+  .btn-primary:focus, .btn-primary.focus {
+    box-shadow: 0 0 0 0.2rem rgba(235, 170, 61, 0.5);
+  }
+  
+  .btn-primary.disabled, .btn-primary:disabled {
+    color: #212529;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+  }
+  
+  .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+  .show > .btn-primary.dropdown-toggle {
+    color: #212529;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+  }
+  
+  .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+  .show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(235, 170, 61, 0.5);
+  }
+
+  a {
+    color: #0d6efd;
+    text-decoration: none;
+  }
+  
+  a:hover, a:focus {
+    color: #0d6efd;
+    text-decoration: underline;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .h6 {
+    margin-bottom: 0.5rem;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    line-height: 1.2;
+    color: inherit;
+  }
+  
+  h1,
+  .h1 {
+    font-size: 2.5rem;
+  }
+  
+  h2,
+  .h2 {
+    font-size: 2rem;
+  }
+  
+  h3,
+  .h3 {
+    font-size: 1.75rem;
+  }
+  
+  h4,
+  .h4 {
+    font-size: 1.5rem;
+  }
+  
+  h5,
+  .h5 {
+    font-size: 1.25rem;
+  }
+  
+  h6,
+  .h6 {
+    font-size: 1rem;
+  }
+  small,
+  .small {
+    font-size: 70%;
+    font-weight: 400;
+  }
+  
+  
+  

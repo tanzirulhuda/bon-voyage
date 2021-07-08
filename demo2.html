@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Bon Voyage</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Owl Caraousel -->
+    <link rel="stylesheet" href="Frontend/Js/owl-carousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="Frontend/Js/owl-carousel/dist/assets/owl.theme.default.css">
+    <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="Frontend/Styles/styles.css">
+    <link rel="stylesheet" href="Frontend/Styles/continents_slide.css">
+</head>
+<body>
+    <header class="top-bar-wrapper">
+        <section class="container-fluid top-bar">
+            <div class="logo-area">
+                <a href="./index.html">
+                    <img src="Images/Logo/Logo1.png" alt="Bon Voyage Logo">
+                </a>
+            </div>
+            <div class="search-container">
+                <form role="form" id="form-buscar">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <input id="1" class="form-control" type="text" name="search" placeholder="Search..." required/>
+                            <span class="input-group-btn">
+                            <button class="btn btn-primary" type="submit">
+                            <i class="glyphicon glyphicon-search" aria-hidden="true"></i> Search
+                            </button>
+                            </span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="booking_user_section">
+                <div id="booking-menu" class="booking-menu">
+                    <ul class="list-unstyled">
+                        <li class="text-uppercase">Booking <i class="fas fa-angle-down"></i></li>
+                    </ul>
+                    <div id="booking-dropdown-menu" class="booking-dropdown-menu">
+                        <ul class="list-unstyled text-uppercase">
+                            <li>
+                                <a class="text-reset text-decoration-none" href="">hotel</a>
+                            </li>
+                            <li>
+                                <a class="text-reset text-decoration-none" href="">air ticket</a>
+                            </li>
+                            <li>
+                                <a class="text-reset text-decoration-none" href="">taxi</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="user-menu-section">
+                    <i class="fas fa-user-circle"></i>
+                </div>
+            </div>
+        </section>
+        <div class="sm-searchbar-section">
+            <div class="search-bar-container">
+                <form role="form" id="form-buscar">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <input id="1" class="form-control" type="text" name="search" placeholder="Search..." required/>
+                            <span class="input-group-btn">
+                            <button class="btn btn-primary" type="submit">
+                            <i class="glyphicon glyphicon-search" aria-hidden="true"></i> Search
+                            </button>
+                            </span>
+                        </div>
+                    </div>
+                </form>
+                <div></div>
+            </div>
+        </div>
+    </header>
+    <section class="pt-5">
+      <!-- <div class="container">
+        <h1>Featured Destinations</h1>
+        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis aliquid</p>
+      </div> -->
+      <div class="destinations-slider owl-carousel owl-theme nav-center-custom owl-padding">
+        <a class="destination d-flex align-items-end bg-center bg-cover" href="post.html" style="background: url(img/travel-home-4.jpg)">
+          <div class="destination-inner w-100 text-center text-white index-forward has-transition">
+            <p class="small text-uppercase mb-0">Paris</p>
+            <h2 class="h3 mb-4">France</h2>
+            <div class="btn btn-primary btn-block destination-btn text-white">Discover</div>
+          </div>
+        </a>
+          
+        <a class="destination d-flex align-items-end bg-center bg-cover" href="post.html" style="background: url(img/travel-home-2.jpg)">
+          <div class="destination-inner w-100 text-center text-white index-forward has-transition">
+            <p class="small text-uppercase mb-0">Tokyo</p>
+            <h2 class="h3 mb-4">Japan</h2>
+            <div class="btn btn-primary btn-block destination-btn text-white">Discover</div>
+          </div>
+        </a>
+        <a class="destination d-flex align-items-end bg-center bg-cover" href="post.html" style="background: url(img/travel-home-3.jpg)">
+          <div class="destination-inner w-100 text-center text-white index-forward has-transition">
+            <p class="small text-uppercase mb-0">Madrid</p>
+            <h2 class="h3 mb-4">Spain</h2>
+            <div class="btn btn-primary btn-block destination-btn text-white">Discover</div>
+          </div>
+        </a>
+        <a class="destination d-flex align-items-end bg-center bg-cover" href="post.html" style="background: url(img/travel-home-1.jpg)">
+          <div class="destination-inner w-100 text-center text-white index-forward has-transition">
+            <p class="small text-uppercase mb-0">Rome</p>
+            <h2 class="h3 mb-4">Italy</h2>
+            <div class="btn btn-primary btn-block destination-btn text-white">Discover</div>
+          </div>
+        </a>
+        <a class="destination d-flex align-items-end bg-center bg-cover" href="post.html" style="background: url(img/travel-home-5.jpg)">
+          <div class="destination-inner w-100 text-center text-white index-forward has-transition">
+            <p class="small text-uppercase mb-0">Jakarta</p>
+            <h2 class="h3 mb-4">Indonesia</h2>
+            <div class="btn btn-primary btn-block destination-btn text-white">Discover</div>
+          </div>
+        </a>
+        <a class="destination d-flex align-items-end bg-center bg-cover" href="post.html" style="background: url(img/travel-home-6.jpg)">
+          <div class="destination-inner w-100 text-center text-white index-forward has-transition">
+            <p class="small text-uppercase mb-0">Ottawa</p>
+            <h2 class="h3 mb-4">Canada</h2>
+            <div class="btn btn-primary btn-block destination-btn text-white">Discover</div>
+          </div>
+        </a>
+        <a class="destination d-flex align-items-end bg-center bg-cover" href="post.html" style="background: url(img/travel-home-7.jpg)">
+          <div class="destination-inner w-100 text-center text-white index-forward has-transition">
+            <p class="small text-uppercase mb-0">Cairo</p>
+            <h2 class="h3 mb-4">Egypt</h2>
+            <div class="btn btn-primary btn-block destination-btn text-white">Discover</div>
+          </div>
+        </a>
+        <a class="destination d-flex align-items-end bg-center bg-cover" href="post.html" style="background: url(img/travel-home-4.jpg)">
+          <div class="destination-inner w-100 text-center text-white index-forward has-transition">
+            <p class="small text-uppercase mb-0">Berlin</p>
+            <h2 class="h3 mb-4">Germany</h2>
+            <div class="btn btn-primary btn-block destination-btn text-white">Discover</div>
+          </div>
+        </a>
+        <a class="destination d-flex align-items-end bg-center bg-cover" href="post.html" style="background: url(img/travel-home-2.jpg)">
+          <div class="destination-inner w-100 text-center text-white index-forward has-transition">
+            <p class="small text-uppercase mb-0">Bangkok</p>
+            <h2 class="h3 mb-4">Thailand</h2>
+            <div class="btn btn-primary btn-block destination-btn text-white">Discover</div>
+          </div>
+        </a>
+        <a class="destination d-flex align-items-end bg-center bg-cover" href="post.html" style="background: url(img/travel-home-3.jpg)">
+          <div class="destination-inner w-100 text-center text-white index-forward has-transition">
+            <p class="small text-uppercase mb-0">Malé</p>
+            <h2 class="h3 mb-4">Maldives</h2>
+            <div class="btn btn-primary btn-block destination-btn text-white">Discover</div>
+          </div>
+        </a>
+        <a class="destination d-flex align-items-end bg-center bg-cover" href="post.html" style="background: url(img/travel-home-1.jpg)">
+          <div class="destination-inner w-100 text-center text-white index-forward has-transition">
+            <p class="small text-uppercase mb-0">New York</p>
+            <h2 class="h3 mb-4">United States</h2>
+            <div class="btn btn-primary btn-block destination-btn text-white">Discover</div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Owl Caraousel -->'
+    <script src="Frontend/Js/owl-carousel/dist/owl.carousel.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="Frontend/Js/continents_slide.js"></script>
+    <script src="Frontend/Js/app.js"></script>
+</body>
+</html>
