@@ -351,3 +351,8 @@ div#user-menu-dropdown-section > ul > li > i{
 section.blog-container.py-3.mt-2 {
     padding: 0px 45px;
 }
+@media screen and (max-width:470px) {
+    .header-text-responsive{
+        font-size: 24px;
+    }
+}
