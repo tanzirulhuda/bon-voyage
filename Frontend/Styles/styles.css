@@ -1,6 +1,10 @@
 /* Font Baloo */
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap');
-
+html,
+body {
+  position: relative;
+  height: 100%;
+}
 .top-bar-wrapper{
     font-family: 'Baloo 2', cursive;
 }
@@ -34,12 +38,13 @@
         border-radius: 1px !important;
 }
 #form-buscar >.form-group >.input-group > .form-control {
-    height: 40px;
+    height: 38px;
 }
 #form-buscar >.form-group >.input-group > .input-group-btn > .btn{
-    height: 40px; 
+    height: 38px; 
     font-size: 16px;
-    font-weight: 300;       
+    font-weight: 300;     
+    padding-top: 6px;  
 }
 /* #form-buscar >.form-group >.input-group > .input-group-btn > .btn .glyphicon{
     margin-right:12px;   
@@ -83,8 +88,11 @@ outline: 0;
     display: none;
 }
 .booking-dropdown-menu >ul >li{
-    padding: 8px 4px;
-    margin: 4px;
+    padding: 12px 8px;
+    /* margin: 4px; */
+}
+.booking-dropdown-menu >ul >li:hover{
+    background-color: #fff;
 }
 .booking-dropdown-menu >ul >li >a{
     text-decoration: none;
@@ -97,9 +105,66 @@ outline: 0;
     justify-content: space-between;
     align-items: center;
 }
-.fa-user-circle{
-    font-size: 44px;
+.user-profile-pic-topbar{
+    width: 40px;
+    height: 40px;
     color: gray;
+}
+.user-profile-pic-topbar img{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+    border-radius: 50% !important;
+}
+.user-profile-pic-topbar-dropdown{
+    display: inline;
+    width: 32px;
+    height: 32px;
+}
+.user-profile-pic-topbar-dropdown img{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+    border-radius: 50% !important;
+}
+div#user-menu-dropdown-section {
+    position: absolute;
+    top: 88px;
+    right: 15px;
+    z-index: 999;
+    background-color: #069fc3;
+    display: none;
+}
+div#user-menu-dropdown-section > ul{
+    padding: 3px;
+}
+div#user-menu-dropdown-section > ul > li{
+    padding: 13px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: first baseline;
+}
+div#user-menu-dropdown-section > ul > li:hover{
+    background-color: #fff;
+}
+div#user-menu-dropdown-section > ul > li > i{
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+@media screen and (max-width:384px) {
+    .logo-area{
+        width: 150px !important;
+    }
+    .search-container{
+        display: none;
+    }
+    .booking-menu > ul >li{
+        font-weight: 500;
+        font-size: 13px !important;
+    }
 }
 @media screen and (max-width:570px) {
     .logo-area{
@@ -209,4 +274,80 @@ outline: 0;
     color: #fff;
     background-color: #0d6efd;
     border-color: #0d6efd;
+}
+.event-img-wrapper{
+    width:40%;
+    height: 40%;
+}
+.event-img-wrapper img{
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+}
+.swiper-container {
+    /* width: 100%;
+    height: 100%; */
+  }
+
+  .swiper-slide {
+    font-size: 18px;
+    background: rgb(0, 0, 0);
+    height: fit-content;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+  }
+  marquee {
+    height: 212px;
+    overflow: hidden;
+}
+.btn-blogs-read-more{
+    padding: 5px 10px;
+    background-color: #0d6efd !important;
+}
+.card{
+    border:none;
+}
+.inner{
+    overflow: hidden;
+    border-radius: 2%;
+    box-shadow: 0 8px 17px 0 rgb(0 0 0 / 7%), 0 6px 20px 0 rgb(0 0 0 / 7%);
+    width: 277.25px;
+    height: 207.8px;
+}
+.inner img{
+    transition: 1s all ease;
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+.inner:hover img{
+    transform: scale(1.3);
+}
+.card-body{
+    padding-left: 0px;
+    padding-right: 3px;
+}
+.card-body h5{
+    font-size: 17px;
+}
+section.blog-container.py-3.mt-2 {
+    padding: 0px 45px;
 }

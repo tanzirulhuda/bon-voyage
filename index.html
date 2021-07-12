@@ -10,6 +10,11 @@
     <!-- Owl Caraousel -->
     <link rel="stylesheet" href="Frontend/Js/owl-carousel/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="Frontend/Js/owl-carousel/dist/assets/owl.theme.default.css">
+    <!-- Swipper CSS -->
+    <!-- <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    /> -->
     <!-- Font Awesome Link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Custom CSS -->
@@ -28,7 +33,7 @@
                 <form role="form" id="form-buscar">
                     <div class="form-group">
                         <div class="input-group">
-                            <input id="1" class="form-control" type="text" name="search" placeholder="Your destination" required/>
+                            <input id="1" class="form-control" type="text" name="search" placeholder="Your destination . . ." required/>
                             <span class="input-group-btn">
                             <button class="search_btn search-btn-primary" type="submit">
                              Search
@@ -58,7 +63,27 @@
                     </div>
                 </div>
                 <div class="user-menu-section">
-                    <i class="fas fa-user-circle"></i>
+                    <div class="user-img-wrapper user-profile-pic-topbar">
+                      <img src="Images/User Photo/user.jpg" alt="User Profile Picture">
+                    </div>
+                    <div id="user-menu-dropdown-section">
+                      <ul class="list-unstyled text-uppercase">
+                        <li>
+                          <a href="" class="text-reset text-decoration-none">
+                            <div class="user-profile-pic-topbar-dropdown">
+                              <img src="Images/User Photo/user.jpg" alt="User Profile Picture">
+                            </div>
+                          </a> &nbsp;
+                          <a href="" class="text-reset text-decoration-none">Tanzirul Huda</a>
+                        </li>
+                        <hr style="margin-top: 2px;margin-bottom: 2px;border: 0;border-top: 1px solid rgb(255 255 255 / 24%);">
+                        <li><i class="fa fa-plus-circle" aria-hidden="true"></i> <a href="" class="text-reset text-decoration-none">Share Experience</a></li>
+                        <li><i class="far fa-comment-alt"></i> <a href="" class="text-reset text-decoration-none">Feedback</a></li>    
+                        <li><i class="fas fa-cog"></i> <a href="" class="text-reset text-decoration-none">setting & Privacy</a></li>
+                        <li><i class="fas fa-question-circle"></i> <a href="" class="text-reset text-decoration-none">Help & Support</a></li>
+                        <li><i class="fas fa-sign-out-alt"></i> <a href="" class="text-reset text-decoration-none">Signout</a></li>
+                      </ul>
+                    </div>
                 </div>
             </div>
         </section>
@@ -134,7 +159,7 @@
           </a>
         </div>
     </section>
-    <main class="container">
+    <section class="container row col-md-12 col-lg-12">
       <div class="col-md-8 col-lg-8">
         <section class="py-5">
           <div class="container py-4">
@@ -160,10 +185,230 @@
             </div>
           </div>
       </div>
-      <div class="col-md-4 col-lg-4">
-        
+      <div class="col-md-4 col-lg-4 py-5">
+        <section class="container py-4">
+          <div class="header">
+            <h2 class="text-primary">UPCOMING EVENTS- </h2>
+          </div>
+          <div class="swiper-container mySwiper container">
+            <marquee behavior="scroll" direction="up"onmouseover="this.stop();"onmouseout="this.start();"scrollamount="2" class="swiper-wrapper">
+              <div class="swiper-slide bg-light mb-1">
+                <a href="" class="text-decoration-none text-reset m-1 mr-0">
+                  <div class="wrapper d-flex">
+                    <div class="event-img-wrapper">
+                      <img src="Images/Slider/S1.jpg" alt="Event Image">
+                    </div>
+                    <div class="event-info">
+                      <h6 class="p-2">PERFECT DAY AT COCOCAY CRUISES</h6 class="p-2">
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide bg-light mb-1">
+                <a href="" class="text-decoration-none text-reset m-1 mr-0">
+                  <div class="wrapper d-flex">
+                    <div class="event-img-wrapper">
+                      <img src="Images/Slider/S1.jpg" alt="Event Image">
+                    </div>
+                    <div class="event-info">
+                      <h6 class="p-2">PERFECT DAY AT COCOCAY CRUISES</h6 class="p-2">
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide bg-light mb-1">
+                <a href="" class="text-decoration-none text-reset m-1 mr-0">
+                  <div class="wrapper d-flex">
+                    <div class="event-img-wrapper">
+                      <img src="Images/Slider/S1.jpg" alt="Event Image">
+                    </div>
+                    <div class="event-info">
+                      <h6 class="p-2">PERFECT DAY AT COCOCAY CRUISES</h6 class="p-2">
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide bg-light mb-1">
+                <a href="" class="text-decoration-none text-reset m-1 mr-0">
+                  <div class="wrapper d-flex">
+                    <div class="event-img-wrapper">
+                      <img src="Images/Slider/S1.jpg" alt="Event Image">
+                    </div>
+                    <div class="event-info">
+                      <h6 class="p-2">PERFECT DAY AT COCOCAY CRUISES</h6 class="p-2">
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide bg-light mb-1">
+                <a href="" class="text-decoration-none text-reset m-1 mr-0">
+                  <div class="wrapper d-flex">
+                    <div class="event-img-wrapper">
+                      <img src="Images/Slider/S1.jpg" alt="Event Image">
+                    </div>
+                    <div class="event-info">
+                      <h6 class="p-2">PERFECT DAY AT COCOCAY CRUISES</h6 class="p-2">
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide bg-light mb-1">
+                <a href="" class="text-decoration-none text-reset m-1 mr-0">
+                  <div class="wrapper d-flex">
+                    <div class="event-img-wrapper">
+                      <img src="Images/Slider/S1.jpg" alt="Event Image">
+                    </div>
+                    <div class="event-info">
+                      <h6 class="p-2">PERFECT DAY AT COCOCAY CRUISES</h6 class="p-2">
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide bg-light mb-1">
+                <a href="" class="text-decoration-none text-reset m-1 mr-0">
+                  <div class="wrapper d-flex">
+                    <div class="event-img-wrapper">
+                      <img src="Images/Slider/S1.jpg" alt="Event Image">
+                    </div>
+                    <div class="event-info">
+                      <h6 class="p-2">PERFECT DAY AT COCOCAY CRUISES</h6 class="p-2">
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </marquee>
+            <div class="swiper-pagination"></div>
+          </div>
+        </section>
       </div>
-    </main>
+    </section>
+    <section class="blog-container py-3 mt-2">
+        <div class="heading text-center">
+          <h2 class="text-uppercase">Popular Blogs</h2>
+        </div>
+        <div class="row blogs container-fluid mt-3">
+          <a href="" class="single-blog-container text-decoration-none text-reset">
+            <div class="col-md-3 col-lg-3 col-sm-6">
+              <div class="card blog-wrapper">
+                <div class="inner">
+                  <img class="card-img-top shadow" src="Images/Blog_images/blog/Blog Banner 1.jpg" alt="Card image cap">
+                </div>
+                <div class="blog-info">
+                  <div class="card-body">
+                    <h5 class="card-title text-left">Ultimate choice of travelers: Discover the World largest mangrove- Sundarbans </h5>
+                    <a href="#">Read more. . .</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="" class="single-blog-container text-decoration-none text-reset">
+            <div class="col-md-3 col-lg-3 col-sm-6">
+              <div class="card blog-wrapper">
+                <div class="inner">
+                  <img class="card-img-top shadow" src="Images/Blog_images/blog/Blog Banner 2.jpg" alt="Card image cap">
+                </div>
+                <div class="blog-info">
+                  <div class="card-body">
+                    <h5 class="card-title text-left">Ultimate choice of travelers: Discover the World largest mangrove- Sundarbans </h5>
+                    <a href="#">Read more. . .</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="" class="single-blog-container text-decoration-none text-reset">
+            <div class="col-md-3 col-lg-3 col-sm-6">
+              <div class="card blog-wrapper">
+                <div class="inner">
+                  <img class="card-img-top shadow" src="Images/Blog_images/blog/Blog Banner 3.jpg" alt="Card image cap">
+                </div>
+                <div class="blog-info">
+                  <div class="card-body">
+                    <h5 class="card-title text-left">Ultimate choice of travelers: Discover the World largest mangrove- Sundarbans </h5>
+                    <a href="#">Read more. . .</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="" class="single-blog-container text-decoration-none text-reset">
+            <div class="col-md-3 col-lg-3 col-sm-6">
+              <div class="card blog-wrapper">
+                <div class="inner">
+                  <img class="card-img-top shadow" src="Images/Blog_images/blog/Blog Banner 4.jpg" alt="Card image cap">
+                </div>
+                <div class="blog-info">
+                  <div class="card-body">
+                    <h5 class="card-title text-left">Ultimate choice of travelers: Discover the World largest mangrove- Sundarbans </h5>
+                    <a href="#">Read more. . .</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="" class="single-blog-container text-decoration-none text-reset">
+            <div class="col-md-3 col-lg-3 col-sm-6">
+              <div class="card blog-wrapper">
+                <div class="inner">
+                  <img class="card-img-top shadow" src="Images/Blog_images/blog/Blog Banner 5.jpg" alt="Card image cap">
+                </div>
+                <div class="blog-info">
+                  <div class="card-body">
+                    <h5 class="card-title text-left">Ultimate choice of travelers: Discover the World largest mangrove- Sundarbans </h5>
+                    <a href="#">Read more. . .</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="" class="single-blog-container text-decoration-none text-reset">
+            <div class="col-md-3 col-lg-3 col-sm-6">
+              <div class="card blog-wrapper">
+                <div class="inner">
+                  <img class="card-img-top shadow" src="Images/Blog_images/blog/Blog Banner 6.jpg" alt="Card image cap">
+                </div>
+                <div class="blog-info">
+                  <div class="card-body">
+                    <h5 class="card-title text-left">Ultimate choice of travelers: Discover the World largest mangrove- Sundarbans </h5>
+                    <a href="#">Read more. . .</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="" class="single-blog-container text-decoration-none text-reset">
+            <div class="col-md-3 col-lg-3 col-sm-6">
+              <div class="card blog-wrapper">
+                <div class="inner">
+                  <img class="card-img-top shadow" src="Images/Blog_images/blog/Blog Banner 7.jpg" alt="Card image cap">
+                </div>
+                <div class="blog-info">
+                  <div class="card-body">
+                    <h5 class="card-title text-left">Ultimate choice of travelers: Discover the World largest mangrove- Sundarbans </h5>
+                    <a href="#">Read more. . .</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="" class="single-blog-container text-decoration-none text-reset">
+            <div class="col-md-3 col-lg-3 col-sm-6">
+              <div class="card blog-wrapper">
+                <div class="inner">
+                  <img class="card-img-top shadow" src="Images/Blog_images/blog/Blog Banner 8.jpg" alt="Card image cap">
+                </div>
+                <div class="blog-info">
+                  <div class="card-body">
+                    <h5 class="card-title text-left">Ultimate choice of travelers: Discover the World largest mangrove- Sundarbans </h5>
+                    <a href="#">Read more. . .</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+    </section>
 
 
     <!-- jQuery library -->
@@ -174,8 +419,27 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Swiper JS -->
+    <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
     <!-- Custom JS -->
     <script src="Frontend/Js/continents_slide.js"></script>
     <script src="Frontend/Js/app.js"></script>
+    <script>
+            var swiper = new Swiper(".mySwiper", {
+        direction: "vertical",
+        mousewheel: false,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: false,
+        // autoplay: {
+        //   delay: 2500,
+        //   disableOnInteraction: false,
+        // },
+      });
+    </script>
 </body>
 </html>
