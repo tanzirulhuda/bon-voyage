@@ -1,0 +1,11 @@
+.social-link-share{
+    background: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    transition: 1s ease all;
+}
+.social-link-share:hover{
+    background: #fff;
+    color: #007bff;
+}

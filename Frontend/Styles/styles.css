@@ -3,8 +3,16 @@
 .text-gray{
     color: gray;
 }
-
-
+.img-cover-rounded{
+    object-fit: cover;
+    border-radius: 50% !important;
+}
+.img-cover{
+    object-fit: cover;
+}
+.img-cover-border{
+    border: 3px solid #069fc3;
+}
 html,
 body {
   position: relative;
@@ -289,11 +297,6 @@ div#user-menu-dropdown-section > ul > li > i{
     height: inherit;
     object-fit: cover;
 }
-.swiper-container {
-    /* width: 100%;
-    height: 100%; */
-  }
-
   .swiper-slide {
     font-size: 18px;
     background: rgb(0, 0, 0);
@@ -481,7 +484,6 @@ section.blog-container.py-3.mt-2 {
 .gallery__link:hover .gallery__overlay span:after {
     width: 100%;    
 }
-
 
 /* Gallery Image */
 .gallery__image {
