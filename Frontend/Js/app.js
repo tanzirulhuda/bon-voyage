@@ -1,4 +1,4 @@
-
+// Booking Menu Dropdown
 $(document).ready(function(){
     // Show hide popover
     $("#booking-menu").click(function(){
@@ -12,7 +12,7 @@ $(document).on("click", function(event){
     }            
 });
 
-
+// User Menu DropDown
 $(document).ready(function(){
     // Show hide popover
     $(".user-menu-section").click(function(){
@@ -26,18 +26,16 @@ $(document).on("click", function(event){
     }            
 });
 
-
-// second code
-
-// $(document).ready(function(){
-//     // Show hide popover
-//     $(".dropdown").click(function(){
-//         $(this).find(".dropdown-menu").slideToggle("fast");
-//     });
-// });
-// $(document).on("click", function(event){
-//     var $trigger = $(".dropdown");
-//     if($trigger !== event.target && !$trigger.has(event.target).length){
-//         $(".dropdown-menu").slideUp("fast");
-//     }            
-// });
+// Language Dropdown
+$(document).ready(function(){
+    // Show hide popover
+    $(".lang-btn").click(function(){
+        $(this).find(".lang-dropdown").toggle(500);
+    });
+});
+$(document).on("click", function(event){
+    var $trigger = $(".lang-btn");
+    if($trigger !== event.target && !$trigger.has(event.target).length){
+        $(".lang-dropdown").slideUp();
+    }            
+});

@@ -1,0 +1,6 @@
+.card{
+    cursor: pointer;
+}
+.card > .card-body > h4{
+    font-size: 20px;
+}

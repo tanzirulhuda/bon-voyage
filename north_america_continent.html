@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>North America | Bon Voyage</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Owl Caraousel -->
+    <link rel="stylesheet" href="Frontend/Js/owl-carousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="Frontend/Js/owl-carousel/dist/assets/owl.theme.default.css">
+    <!-- Swipper CSS -->
+    <!-- <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    /> -->
+    <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Custom CSS -->
+    <!-- <link rel="stylesheet" href="Frontend/Styles/continents_slide.css"> -->
+    <link rel="stylesheet" href="Frontend/Styles/styles.css">
+    <link rel="stylesheet" href="Frontend/Styles/continents.css">
+</head>
+<body>
+    <section class="language">
+      <button class="btn lang-btn">
+        <i class="fas fa-globe-asia"></i>
+        <div class="lang-dropdown">
+          <ul class="list-unstyled">
+            <li><a class="text-decoration-none text-reset" href="">Bangla</a></li>
+            <li><a class="text-decoration-none text-reset" href="">English</a></li>
+            <li><a class="text-decoration-none text-reset" href="">Frence</a></li>
+            <li><a class="text-decoration-none text-reset" href="">Bangla</a></li>
+            <li><a class="text-decoration-none text-reset" href="">English</a></li>
+            <li><a class="text-decoration-none text-reset" href="">Frence</a></li>
+            <li><a class="text-decoration-none text-reset" href="">Bangla</a></li>
+            <li><a class="text-decoration-none text-reset" href="">English</a></li>
+            <li><a class="text-decoration-none text-reset" href="">Frence</a></li>
+            <li><a class="text-decoration-none text-reset" href="">Bangla</a></li>
+            <li><a class="text-decoration-none text-reset" href="">English</a></li>
+            <li><a class="text-decoration-none text-reset" href="">Frence</a></li>
+            <li><a class="text-decoration-none text-reset" href="">English</a></li>
+            <li><a class="text-decoration-none text-reset" href="">Frence</a></li>
+            <li><a class="text-decoration-none text-reset" href="">Bangla</a></li>
+            <li><a class="text-decoration-none text-reset" href="">English</a></li>
+            <li><a class="text-decoration-none text-reset" href="">Frence</a></li>
+            <li><a class="text-decoration-none text-reset" href="">Bangla</a></li>
+            <li><a class="text-decoration-none text-reset" href="">English</a></li>
+            <li><a class="text-decoration-none text-reset" href="">Frence</a></li>
+            <li><a class="text-decoration-none text-reset" href="">Bangla</a></li>
+            <li><a class="text-decoration-none text-reset" href="">English</a></li>
+            <li><a class="text-decoration-none text-reset" href="">Frence</a></li>
+            <li><a class="text-decoration-none text-reset" href="">Bangla</a></li>
+            <li><a class="text-decoration-none text-reset" href="">English</a></li>
+            <li><a class="text-decoration-none text-reset" href="">Frence</a></li>
+          </ul>
+        </div>
+      </button>
+
+    </section>
+    <header class="top-bar-wrapper bg-light container-fluid">
+        <section class="container-fluid top-bar">
+            <div class="logo-area">
+                <a href="./index.html">
+                    <img src="Images/Logo/Logo1.png" alt="Bon Voyage Logo">
+                </a>
+            </div>
+            <div class="search-container">
+                <form role="form" id="form-buscar">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <input id="1" class="form-control" type="text" name="search" placeholder="Your destination . . ." required/>
+                            <span class="input-group-btn">
+                            <button class="search_btn search-btn-primary" type="submit">
+                             Search
+                            </button>
+                            </span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="booking_user_section">
+                <div id="booking-menu" class="booking-menu">
+                    <ul class="list-unstyled">
+                        <li class="text-uppercase">Booking <i class="fas fa-angle-down"></i></li>
+                    </ul>
+                    <div id="booking-dropdown-menu" class="booking-dropdown-menu">
+                        <ul class="list-unstyled text-uppercase">
+                            <li>
+                                <a class="text-reset text-decoration-none" href="">hotel</a>
+                            </li>
+                            <li>
+                                <a class="text-reset text-decoration-none" href="">air ticket</a>
+                            </li>
+                            <li>
+                                <a class="text-reset text-decoration-none" href="">taxi</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="user-menu-section">
+                    <div class="user-img-wrapper user-profile-pic-topbar">
+                      <img src="Images/User Photo/user.jpg" alt="User Profile Picture">
+                    </div>
+                    <div id="user-menu-dropdown-section">
+                      <ul class="list-unstyled text-uppercase">
+                        <li>
+                          <a href="" class="text-reset text-decoration-none">
+                            <div class="user-profile-pic-topbar-dropdown">
+                              <img src="Images/User Photo/user.jpg" alt="User Profile Picture">
+                            </div>
+                          </a> &nbsp;
+                          <a href="" class="text-reset text-decoration-none">Tanzirul Huda</a>
+                        </li>
+                        <hr style="margin-top: 2px;margin-bottom: 2px;border: 0;border-top: 1px solid rgb(255 255 255 / 24%);">
+                        <li><i class="fa fa-plus-circle" aria-hidden="true"></i> <a href="" class="text-reset text-decoration-none">Share Experience</a></li>
+                        <li><i class="far fa-comment-alt"></i> <a href="" class="text-reset text-decoration-none">Feedback</a></li>    
+                        <li><i class="fas fa-cog"></i> <a href="" class="text-reset text-decoration-none">setting & Privacy</a></li>
+                        <li><i class="fas fa-question-circle"></i> <a href="" class="text-reset text-decoration-none">Help & Support</a></li>
+                        <li><i class="fas fa-sign-out-alt"></i> <a href="" class="text-reset text-decoration-none">Signout</a></li>
+                      </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="sm-searchbar-section">
+            <div class="search-bar-container">
+                <form role="form" id="form-buscar">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <input id="1" class="form-control" type="text" name="search" placeholder="Search..." required/>
+                            <span class="input-group-btn">
+                            <button class="btn btn-primary" type="submit">
+                            <i class="glyphicon glyphicon-search" aria-hidden="true"></i> Search
+                            </button>
+                            </span>
+                        </div>
+                    </div>
+                </form>
+                <div></div>
+            </div>
+        </div>
+    </header>
+    <div class="container-fluid">
+        <div class="heading text-center blogs-section-header">
+            <h2 class="text-uppercase header-text-responsive text-primary mb-4">North America</h2>
+        </div>
+        <div class="row col-md-12">
+            <!-- Single Content -->
+            <div class="col-md-4 col-lg-3 col-xl-3 col-sm-6 col-xs-12">
+                <div class="card" data-toggle="modal" data-target="#content_modal">
+                    <div class="inner">
+                        <img class="card-img-top shadow img-fluid mx-auto" src="Images/Continents/North America/1 Niagara Falls.jpg" width="100%" alt="Card image cap">
+                        <div class="container__overlay">
+                            <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptates possimus labore quia inventore sint et in sit ipsam necessitatibus aliquam quidem magni dolor quam quisquam asperiores ullam vero mollitia consequatur laudantium, laborum corrupti harum, rem dicta! Quasi, neque, aliquid, recusandae est omnis dolor deserunt inventore placeat similique nihil quae! lorem20</span>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="text-primary">Niagara Falls</h4>
+                    </div>
+                </div>     
+                <!-- The Modal -->
+                <div class="modal fade" id="content_modal">
+                    <div class="modal-dialog modal-dialog-scrollable">
+                        <div class="modal-content">
+                        
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                            <h2 class="modal-title">Niagara Falls</h2>
+                            <button type="button" class="close" data-dismiss="modal">×</button>
+                            </div>
+                            
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                            <h3>Some text to enable scrolling..</h3>
+                            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            
+                            <!-- Modal footer -->
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                            <a href="insert form" class="btn btn-primary">Insert</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <!-- !Single Content -->
+
+            <!-- Single Content -->
+            <div class="col-md-4 col-lg-3 col-xl-3 col-sm-6 col-xs-12">
+                <div class="card" data-toggle="modal" data-target="#content_modal">
+                    <div class="inner">
+                        <img class="card-img-top shadow img-fluid mx-auto" src="Images/Continents/North America/2 Wailea, Hawaii.jpg" width="100%" alt="Card image cap">
+                        <div class="container__overlay">
+                            <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptates possimus labore quia inventore sint et in sit ipsam necessitatibus aliquam quidem magni dolor quam quisquam asperiores ullam vero mollitia consequatur laudantium, laborum corrupti harum, rem dicta! Quasi, neque, aliquid, recusandae est omnis dolor deserunt inventore placeat similique nihil quae! lorem20</span>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="text-primary">Wailea, Hawaii</h4>
+                    </div>
+                </div>     
+                <!-- The Modal -->
+                <div class="modal fade" id="content_modal">
+                    <div class="modal-dialog modal-dialog-scrollable">
+                        <div class="modal-content">
+                        
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                            <h2 class="modal-title">Wailea, Hawaii</h2>
+                            <button type="button" class="close" data-dismiss="modal">×</button>
+                            </div>
+                            
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                            <h3>Some text to enable scrolling..</h3>
+                            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            
+                            <!-- Modal footer -->
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                            <a href="insert form" class="btn btn-primary">Insert</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <!-- !Single Content -->
+
+            <!-- Single Content -->
+            <div class="col-md-4 col-lg-3 col-xl-3 col-sm-6 col-xs-12">
+                <div class="card" data-toggle="modal" data-target="#content_modal">
+                    <div class="inner">
+                        <img class="card-img-top shadow img-fluid mx-auto" src="Images/Continents/North America/3 Cambria, California.jpg" width="100%" alt="Card image cap">
+                        <div class="container__overlay">
+                            <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptates possimus labore quia inventore sint et in sit ipsam necessitatibus aliquam quidem magni dolor quam quisquam asperiores ullam vero mollitia consequatur laudantium, laborum corrupti harum, rem dicta! Quasi, neque, aliquid, recusandae est omnis dolor deserunt inventore placeat similique nihil quae! lorem20</span>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="text-primary">Cambria, California</h4>
+                    </div>
+                </div>     
+                <!-- The Modal -->
+                <div class="modal fade" id="content_modal">
+                    <div class="modal-dialog modal-dialog-scrollable">
+                        <div class="modal-content">
+                        
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                            <h2 class="modal-title">Cambria, California</h2>
+                            <button type="button" class="close" data-dismiss="modal">×</button>
+                            </div>
+                            
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                            <h3>Some text to enable scrolling..</h3>
+                            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            
+                            <!-- Modal footer -->
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                            <a href="insert form" class="btn btn-primary">Insert</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <!-- !Single Content -->
+
+            <!-- Single Content -->
+            <div class="col-md-4 col-lg-3 col-xl-3 col-sm-6 col-xs-12">
+                <div class="card" data-toggle="modal" data-target="#content_modal">
+                    <div class="inner">
+                        <img class="card-img-top shadow img-fluid mx-auto" src="Images/Continents/North America/4 Springdale, Utah.jpg" width="100%" alt="Card image cap">
+                        <div class="container__overlay">
+                            <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptates possimus labore quia inventore sint et in sit ipsam necessitatibus aliquam quidem magni dolor quam quisquam asperiores ullam vero mollitia consequatur laudantium, laborum corrupti harum, rem dicta! Quasi, neque, aliquid, recusandae est omnis dolor deserunt inventore placeat similique nihil quae! lorem20</span>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="text-primary">Springdale, Utah</h4>
+                    </div>
+                </div>     
+                <!-- The Modal -->
+                <div class="modal fade" id="content_modal">
+                    <div class="modal-dialog modal-dialog-scrollable">
+                        <div class="modal-content">
+                        
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                            <h2 class="modal-title">Springdale, Utah</h2>
+                            <button type="button" class="close" data-dismiss="modal">×</button>
+                            </div>
+                            
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                            <h3>Some text to enable scrolling..</h3>
+                            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            
+                            <!-- Modal footer -->
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                            <a href="insert form" class="btn btn-primary">Insert</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <!-- !Single Content -->
+
+            <!-- Single Content -->
+            <div class="col-md-4 col-lg-3 col-xl-3 col-sm-6 col-xs-12">
+                <div class="card" data-toggle="modal" data-target="#content_modal">
+                    <div class="inner">
+                        <img class="card-img-top shadow img-fluid mx-auto" src="Images/Continents/North America/5 Quebec City, Quebec.jpg" width="100%" alt="Card image cap">
+                        <div class="container__overlay">
+                            <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptates possimus labore quia inventore sint et in sit ipsam necessitatibus aliquam quidem magni dolor quam quisquam asperiores ullam vero mollitia consequatur laudantium, laborum corrupti harum, rem dicta! Quasi, neque, aliquid, recusandae est omnis dolor deserunt inventore placeat similique nihil quae! lorem20</span>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="text-primary">Quebec City, Quebec</h4>
+                    </div>
+                </div>     
+                <!-- The Modal -->
+                <div class="modal fade" id="content_modal">
+                    <div class="modal-dialog modal-dialog-scrollable">
+                        <div class="modal-content">
+                        
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                            <h2 class="modal-title">Quebec City, Quebec</h2>
+                            <button type="button" class="close" data-dismiss="modal">×</button>
+                            </div>
+                            
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                            <h3>Some text to enable scrolling..</h3>
+                            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            
+                            <!-- Modal footer -->
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                            <a href="insert form" class="btn btn-primary">Insert</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <!-- !Single Content -->
+
+            <!-- Single Content -->
+            <div class="col-md-4 col-lg-3 col-xl-3 col-sm-6 col-xs-12">
+                <div class="card" data-toggle="modal" data-target="#content_modal">
+                    <div class="inner">
+                        <img class="card-img-top shadow img-fluid mx-auto" src="Images/Continents/North America/6 Grand canyon.jpg" width="100%" alt="Card image cap">
+                        <div class="container__overlay">
+                            <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptates possimus labore quia inventore sint et in sit ipsam necessitatibus aliquam quidem magni dolor quam quisquam asperiores ullam vero mollitia consequatur laudantium, laborum corrupti harum, rem dicta! Quasi, neque, aliquid, recusandae est omnis dolor deserunt inventore placeat similique nihil quae! lorem20</span>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="text-primary">Grand canyon</h4>
+                    </div>
+                </div>     
+                <!-- The Modal -->
+                <div class="modal fade" id="content_modal">
+                    <div class="modal-dialog modal-dialog-scrollable">
+                        <div class="modal-content">
+                        
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                            <h2 class="modal-title">Grand canyon</h2>
+                            <button type="button" class="close" data-dismiss="modal">×</button>
+                            </div>
+                            
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                            <h3>Some text to enable scrolling..</h3>
+                            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            
+                            <!-- Modal footer -->
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                            <a href="insert form" class="btn btn-primary">Insert</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <!-- !Single Content -->
+
+            <!-- Single Content -->
+            <div class="col-md-4 col-lg-3 col-xl-3 col-sm-6 col-xs-12">
+                <div class="card" data-toggle="modal" data-target="#content_modal">
+                    <div class="inner">
+                        <img class="card-img-top shadow img-fluid mx-auto" src="Images/Continents/North America/7 Calgary, Alberta.jpg" width="100%" alt="Card image cap">
+                        <div class="container__overlay">
+                            <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptates possimus labore quia inventore sint et in sit ipsam necessitatibus aliquam quidem magni dolor quam quisquam asperiores ullam vero mollitia consequatur laudantium, laborum corrupti harum, rem dicta! Quasi, neque, aliquid, recusandae est omnis dolor deserunt inventore placeat similique nihil quae! lorem20</span>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="text-primary">Calgary, Alberta</h4>
+                    </div>
+                </div>     
+                <!-- The Modal -->
+                <div class="modal fade" id="content_modal">
+                    <div class="modal-dialog modal-dialog-scrollable">
+                        <div class="modal-content">
+                        
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                            <h2 class="modal-title">Calgary, Alberta</h2>
+                            <button type="button" class="close" data-dismiss="modal">×</button>
+                            </div>
+                            
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                            <h3>Some text to enable scrolling..</h3>
+                            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            
+                            <!-- Modal footer -->
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                            <a href="insert form" class="btn btn-primary">Insert</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <!-- !Single Content -->
+
+            <!-- Single Content -->
+            <div class="col-md-4 col-lg-3 col-xl-3 col-sm-6 col-xs-12">
+                <div class="card" data-toggle="modal" data-target="#content_modal">
+                    <div class="inner">
+                        <img class="card-img-top shadow img-fluid mx-auto" src="Images/Continents/North America/8 British Columbia, Canada.jpg" width="100%" alt="Card image cap">
+                        <div class="container__overlay">
+                            <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptates possimus labore quia inventore sint et in sit ipsam necessitatibus aliquam quidem magni dolor quam quisquam asperiores ullam vero mollitia consequatur laudantium, laborum corrupti harum, rem dicta! Quasi, neque, aliquid, recusandae est omnis dolor deserunt inventore placeat similique nihil quae! lorem20</span>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="text-primary">British Columbia, Canada</h4>
+                    </div>
+                </div>     
+                <!-- The Modal -->
+                <div class="modal fade" id="content_modal">
+                    <div class="modal-dialog modal-dialog-scrollable">
+                        <div class="modal-content">
+                        
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                            <h2 class="modal-title">British Columbia, Canada</h2>
+                            <button type="button" class="close" data-dismiss="modal">×</button>
+                            </div>
+                            
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                            <h3>Some text to enable scrolling..</h3>
+                            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            
+                            <!-- Modal footer -->
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                            <a href="insert form" class="btn btn-primary">Insert</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <!-- !Single Content -->
+
+            <!-- Single Content -->
+            <div class="col-md-4 col-lg-3 col-xl-3 col-sm-6 col-xs-12">
+                <div class="card" data-toggle="modal" data-target="#content_modal">
+                    <div class="inner">
+                        <img class="card-img-top shadow img-fluid mx-auto" src="Images/Continents/North America/9 Lahaina, Hawaii.jpg" width="100%" alt="Card image cap">
+                        <div class="container__overlay">
+                            <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptates possimus labore quia inventore sint et in sit ipsam necessitatibus aliquam quidem magni dolor quam quisquam asperiores ullam vero mollitia consequatur laudantium, laborum corrupti harum, rem dicta! Quasi, neque, aliquid, recusandae est omnis dolor deserunt inventore placeat similique nihil quae! lorem20</span>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="text-primary">Lahaina, Hawaii</h4>
+                    </div>
+                </div>     
+                <!-- The Modal -->
+                <div class="modal fade" id="content_modal">
+                    <div class="modal-dialog modal-dialog-scrollable">
+                        <div class="modal-content">
+                        
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                            <h2 class="modal-title">Lahaina, Hawaii</h2>
+                            <button type="button" class="close" data-dismiss="modal">×</button>
+                            </div>
+                            
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                            <h3>Some text to enable scrolling..</h3>
+                            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            
+                            <!-- Modal footer -->
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                            <a href="insert form" class="btn btn-primary">Insert</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <!-- !Single Content -->
+
+            <!-- Single Content -->
+            <div class="col-md-4 col-lg-3 col-xl-3 col-sm-6 col-xs-12">
+                <div class="card" data-toggle="modal" data-target="#content_modal">
+                    <div class="inner">
+                        <img class="card-img-top shadow img-fluid mx-auto" src="Images/Continents/North America/10 Montreal, Quebec.jpg" width="100%" alt="Card image cap">
+                        <div class="container__overlay">
+                            <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptates possimus labore quia inventore sint et in sit ipsam necessitatibus aliquam quidem magni dolor quam quisquam asperiores ullam vero mollitia consequatur laudantium, laborum corrupti harum, rem dicta! Quasi, neque, aliquid, recusandae est omnis dolor deserunt inventore placeat similique nihil quae! lorem20</span>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="text-primary">Montreal, Quebec</h4>
+                    </div>
+                </div>     
+                <!-- The Modal -->
+                <div class="modal fade" id="content_modal">
+                    <div class="modal-dialog modal-dialog-scrollable">
+                        <div class="modal-content">
+                        
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                            <h2 class="modal-title">Montreal, Quebec</h2>
+                            <button type="button" class="close" data-dismiss="modal">×</button>
+                            </div>
+                            
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                            <h3>Some text to enable scrolling..</h3>
+                            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                            <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            
+                            <!-- Modal footer -->
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                            <a href="insert form" class="btn btn-primary">Insert</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <!-- !Single Content -->
+            
+        </div>
+    </div>
+    <footer class="bg-dark text-gray py-3">
+      <div class="copyright-text container">
+        <p class="text-center">&copy; Bon Voyage</p>
+      </div>
+      <div class="developer-info text-right container">
+        <p class="small">Designed by <a class="text-reset" href="">Apps Valley</a></p>
+      </div>
+    </footer>
+
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Owl Caraousel -->'
+    <script src="Frontend/Js/owl-carousel/dist/owl.carousel.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Swiper JS -->
+    <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+    <!-- Custom JS -->
+    <script src="Frontend/Js/continents_slide.js"></script>
+    <script src="Frontend/Js/app.js"></script>
+</body>
+</html>
